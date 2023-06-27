@@ -15,7 +15,7 @@ const BlogDetails = ({post}) => {
       <p className='mt-4 mb-2' > {post.content}</p>
       <div>
         {post.tags.map( (tag, index) => (
-                <span className='text-xs font-semibold underline text-blue-700 cursor-pointer' >{`#${tag}`}</span>
+                <span key={index} className='text-xs font-semibold underline text-blue-700 cursor-pointer' >{`#${tag}`}</span>
         ) )}
       </div>
     </div>
