@@ -9,7 +9,7 @@ export default function Home() {
 
 
 
-   <>
+   <div  className="overflow-x-hidden">
       <div>
             <Headerr/>
         </div>
@@ -19,6 +19,6 @@ export default function Home() {
        
 
 
-   </>
+   </div>
   )
 }
