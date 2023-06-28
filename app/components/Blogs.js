@@ -1,4 +1,4 @@
-'use client'
+
 import { useEffect, useState, useContext } from 'react'
 import Spinner from './Spinner'
 import BlogDetails from './BlogDetails'
