@@ -13,23 +13,7 @@ function Blogs() {
     const fetch1 = async (page=1)=>{
         try {
             setLoading(true);
-           //  console.log("first")
-           //  const res=await fetch("https://mocki.io/v1/cc97c2e2-97ba-4ace-9033-c8bef78ac1a9")
-           //  console.log("second")
-           //  let data=await res.json();
-           //  console.log("data",data);
-           //  if (!data || data.length === 0)
-           //      throw new Error("Something Went Wrong");
-           //      let tp=data.length;
-           //      tp=tp/5;
-           //      setTotalPosts(tp);
-           //  let x=5*(page-1);
-           // data=data.slice(x,x+5);
-           //  setPosts(data);
-           //  console.log("posts",posts)
-  
-           //  console.log("total page",tp)
-           //  setLoading(false);
+          ;
 
              const res=await fetch(`https://codehelp-apis.vercel.app/api/get-blogs?page=${page}`)
          
